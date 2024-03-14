@@ -27,10 +27,10 @@ console.log(start)
 
 //pathCheck(grid,start[0],start[1]);
 
-function isValidTurn(matrix, x, y) {
-    const currentCell = matrix[y][x];
-    return isUpperCase(currentCell) || currentCell === '+';
-}
+// function isValidTurn(matrix, x, y) {
+//     const currentCell = matrix[y][x];
+//     return isUpperCase(currentCell) || currentCell === '+';
+// }
 
 
 function pathCheck(matrix,x,y){
